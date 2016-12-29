@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6F2768321E15CFC900D22EEB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4J993E2JFP;
 						ProvisioningStyle = Automatic;
 					};
 					6F2768461E15CFCA00D22EEB = {
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J993E2JFP;
 				INFOPLIST_FILE = CustomViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonlittler.CustomViews;
@@ -422,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J993E2JFP;
 				INFOPLIST_FILE = CustomViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonlittler.CustomViews;
