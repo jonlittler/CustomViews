@@ -10,6 +10,10 @@ import UIKit
 
 class SimpleTable: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    var items = [("First","A first item"),
+                 ("Second","A second item"),
+                 ("Third","A third item a little longer than the others")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,13 +38,18 @@ class SimpleTable: UIViewController, UITableViewDataSource, UITableViewDelegate 
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return items.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "prototypeCell", for: indexPath)
 
-        // Configure the cell...
+        let titleLabel = cell.viewWithTag(1) as! UILabel
+        let subtitleLabel = cell.viewWithTag(2) as! UILabel
+        
+        let (title,subtitle) = items[indexPath.row]
+        titleLabel.text = title
+        subtitleLabel.text = subtitle
 
         return cell
     }
