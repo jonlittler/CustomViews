@@ -14,6 +14,7 @@
 		6F2768411E15CFCA00D22EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F27683F1E15CFCA00D22EEB /* LaunchScreen.storyboard */; };
 		6F27684C1E15CFCA00D22EEB /* CustomViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F27684B1E15CFCA00D22EEB /* CustomViewsTests.swift */; };
 		6F2768571E15CFCA00D22EEB /* CustomViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2768561E15CFCA00D22EEB /* CustomViewsUITests.swift */; };
+		6F2768651E15DC9700D22EEB /* SimpleTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2768641E15DC9700D22EEB /* SimpleTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6F2768521E15CFCA00D22EEB /* CustomViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2768561E15CFCA00D22EEB /* CustomViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsUITests.swift; sourceTree = "<group>"; };
 		6F2768581E15CFCA00D22EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2768641E15DC9700D22EEB /* SimpleTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				6F2768361E15CFCA00D22EEB /* AppDelegate.swift */,
 				6F2768381E15CFCA00D22EEB /* ViewController.swift */,
+				6F2768641E15DC9700D22EEB /* SimpleTable.swift */,
 				6F27683A1E15CFCA00D22EEB /* Main.storyboard */,
 				6F27683D1E15CFCA00D22EEB /* Assets.xcassets */,
 				6F27683F1E15CFCA00D22EEB /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			files = (
 				6F2768391E15CFCA00D22EEB /* ViewController.swift in Sources */,
 				6F2768371E15CFCA00D22EEB /* AppDelegate.swift in Sources */,
+				6F2768651E15DC9700D22EEB /* SimpleTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
